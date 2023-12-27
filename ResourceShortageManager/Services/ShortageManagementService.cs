@@ -188,6 +188,7 @@ public class ShortageManagementService : IShortageManagementService
                     break;
                 
                 case 6:
+                    shortageList = shortageList.OrderByDescending(s => s.Priority).ToList();
                     PrintList(shortageList);
                     break;
             }
