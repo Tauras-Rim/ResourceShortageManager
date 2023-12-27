@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "sByy0VdzZd1NrBXXC4uaM3IrrFQuSeWEqdN71yoaczTxW7gcN8kq0RTa9eRGM5uzbnXwruuBb1HZ0Uh9AIFEMg==",
+  "success": true,
+  "projectFilePath": "D:\\Git\\ResourceShortageManager\\ResourceShortageManager\\ResourceShortageManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tauras\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Tauras\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Tauras\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Tauras\\.nuget\\packages\\nsubstitute\\5.1.0\\nsubstitute.5.1.0.nupkg.sha512",
+    "C:\\Users\\Tauras\\.nuget\\packages\\stylecop\\6.2.0\\stylecop.6.2.0.nupkg.sha512",
+    "C:\\Users\\Tauras\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'StyleCop 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "StyleCop",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

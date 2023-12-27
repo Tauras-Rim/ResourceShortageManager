@@ -1,0 +1,17 @@
+[
+  {
+    "UserId": 131,
+    "Name": "Petras",
+    "IsAdministrator": false
+  },
+  {
+    "UserId": 144,
+    "Name": "John",
+    "IsAdministrator": true
+  },
+  {
+    "UserId": 125,
+    "Name": "Dave",
+    "IsAdministrator": false
+  }
+]
