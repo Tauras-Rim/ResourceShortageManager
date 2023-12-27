@@ -27,7 +27,6 @@ using (var scope = serviceProvider.CreateScope())
         Console.WriteLine("2 - Login");
         byte accountChoice = 0;
         
-        //TODO: iskelt FUNc<bool> i funckija
         validationService.Validate(() => !byte.TryParse(userInputReaderService.ReadLine(), out accountChoice) || accountChoice < 1 || accountChoice > 2, "Incorrect input, try again!");
         
         switch (accountChoice)

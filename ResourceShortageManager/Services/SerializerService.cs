@@ -14,7 +14,6 @@ public class SerializerService : ISerializerService
         WriteListToJson(list, fileName);
     }
 
-    //TODO: ar reik daugiau kazka catchint?
     public List<T> GetListFromJson<T>(string fileName)
     {
         var filePath = Path.Combine("..", "..", "..", "Storage", fileName);
